@@ -1,0 +1,114 @@
+#logo{
+    font-family: 'Sofia';
+    font-size: 1.6em;
+    color: #c72e67;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 15px;
+    letter-spacing: 1em;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+                /*service*/
+nav ul li {
+   
+    display: inline;
+    padding: 10px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+nav ul {
+    
+    float: right;
+    margin-right: 26%;
+    margin-bottom: 60px;
+    margin-top: 5px;
+}
+nav ul li a {
+text-decoration: none;
+    color: #c72e67;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Adamina';
+}
+#acceuil{
+    background-color: #c72e67;
+    border-radius: 15%;
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#homee{
+    margin-top: 170px;
+    margin-bottom: 170px;
+   font-family: 'Sofia';
+    font-size: 2em;
+    color: black; 
+    margin-left: 350px;
+    
+}
+.service{padding-top: 70px;
+}
+h2{
+    color: #bdc6cf;
+    margin-left: 30px;
+    font-size: 2.1em;
+    font-family: 'Sofia';
+    margin-top: 100px;
+}
+h3{
+    color: #c72e67;
+    font-family: 'Sofia';
+}
+#objectif{
+    
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+     background-color:#c4b1ad;
+   position: relative;
+  
+}
+#objectif  img{
+     margin-right: 40px;
+     margin-left: 40px;
+    position: absolute;
+   
+}
+#objectif .content1 p {
+  
+    float: right;
+    margin-left: 40%;
+    margin-top: 80px;
+    font-size: 1.4em;
+   padding-bottom: 2%;
+  
+    line-height: 1.3;
+    color: white;
+}#mission{
+    background-color:#c4b1ad;
+   position: relative;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+  
+}
+#mission  img{
+     margin-right: 40px;
+     margin-left: 40px;
+    position: absolute;
+}
+#mission .content2 p {
+   color: white;
+    float: right;
+    margin-left: 40px;
+    margin-top: 90px;
+    font-size: 1.4em;
+    padding-bottom: 8%;
+    line-height: 1.3;
+    padding-right: 30%;
+}
+.enf{
+    color: #c72e67;
+}
