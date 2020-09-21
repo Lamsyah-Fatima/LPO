@@ -1,30 +1,30 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
 
-body, html {
-  height: 100%;
-    margin: 0px;
-    padding: 0px;
+body,
+html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
 * {
-  box-sizing: border-box;
-     margin: 0px;
-    padding: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
 
-
-header{
-    background-image: url("img/Home%20Background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-   
-    
+header {
+	background-image: url("img/Home%20Background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
 }
-
-header a {
+/* Fatima's csss */
+/* header a {
     
     text-decoration: none;
     color: #F15F46;
@@ -32,197 +32,197 @@ header a {
      margin-top: 10px;
     margin-left: 10px;
     
-}
+} */
 
-#menu{
-    margin-right: 150px;
-     margin-top: 10px;
-    
-}   
+.navbar {
+	color: white;
+	font-family: 'Cairo' bold, sans-serif;
+}
+#menu {
+	color: #f15f46 !important;
+}
 
 #menu a {
-     margin-right: 40px;
-    
+	text-align: center;
 }
-.active{
-    color: white;
-    background-color: #F15F46;
-    border-radius: 15%;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+/* A little solution to the menu */
+#nav-active {
+	color: white;
+	background-color: #f15f46;
+	border-radius: 20em;
+	padding: 0rem 0.8rem 0rem 0.8rem;
 }
-.description{
-    position: absolute;
-    top: 36%;
-    left: 10%;
+#nav-1 {
+	margin: 0rem 4rem 0rem 4rem;
+}
+#nav-2 {
+	margin: 0rem 4rem 0rem 2rem;
+}
+#nav-3 {
+	margin: 0rem 4rem 0rem 2rem;
+}
+
+.description {
+	position: absolute;
+	top: 36%;
+	left: 10%;
 }
 .description h3 {
-    font-size: 1.8em;
-    letter-spacing: 3px;
-    line-height: 1.3;
+	font-size: 1.8em;
+	letter-spacing: 3px;
+	line-height: 1.3;
 }
-#education{
-     font-size: 1.5em;
+#education {
+	font-size: 1.5em;
 }
-.button{
-    border-radius: 25%;
-    padding: 18px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color:#F15F46;
-    border-style: none;
-    
+.button {
+	border-radius: 15rem;
+	padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+	background-color: #f15f46;
+	border-style: none;
 }
-.button a { 
-    color: white;
-    
-    /**********Section1**********/
+.button a {
+	color: white;
+
+	/**********Section1**********/
 }
-#section1{
-    background-color: #F15F46;
-    color: white;
-    margin-top: 0px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-right: 0px;
-    
+#section1 {
+	background-color: #f15f46;
+	color: white;
+	margin-top: 0px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-right: 0px;
 }
-#section1 h3{
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 1.3em;
-    padding-bottom: 20px;
+#section1 h3 {
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 1.3em;
+	padding-bottom: 20px;
 }
 
-
-#section1 p{
-   
-    font-size: 1.2em;
-    text-align: center;
+#section1 p {
+	font-size: 1.2em;
+	text-align: center;
 }
 /**********Section2**********/
-#sec2 h3{
-    text-align: center;
-    color: #FA9837;
+#sec2 h3 {
+	text-align: center;
+	color: #fa9837;
 }
-#NS{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-weight: bold;
-    font-size: 1.4em;
-    
+#NS {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: bold;
+	font-size: 1.4em;
 }
-.container{
-    display: flex;
-    padding-right: 20px;
-    justify-content: space-between;
-    margin-right: 40px;
-    margin-left: 40px;
-    }
-#creche{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-     margin-right: 30px;
-     margin-left: 80px;
-    border-radius:10%;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.container {
+	display: flex;
+	padding-right: 20px;
+	justify-content: space-between;
+	margin-right: 40px;
+	margin-left: 40px;
 }
-#garderie{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-     margin-right: 30px;
-    background-color: #0A303A;
-    color: #949494;
-    border-radius:10%;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+#creche {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 80px;
+	border-radius: 10%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
-#area{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    margin-right: 80px;
-    border-radius:10%;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-   
+#garderie {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	margin-right: 30px;
+	background-color: #0a303a;
+	color: #949494;
+	border-radius: 10%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
-.info a {color: #F2B186;
-text-decoration: none;}
-.info a:hover{
-    text-shadow: 2px 2px 3px #0A303A ;
+#area {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	margin-right: 80px;
+	border-radius: 10%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.info a {
+	color: #f2b186;
+	text-decoration: none;
+}
+.info a:hover {
+	text-shadow: 2px 2px 3px #0a303a;
 }
 /**********Section3**********/
 #NPF {
-    color: #F15F46;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    font-size: 1.4em;
+	color: #f15f46;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	font-size: 1.4em;
 }
-#NPF img{
-    position: relative;
+#NPF img {
+	position: relative;
 }
-#NPF p{
-    position: absolute;
+#NPF p {
+	position: absolute;
 }
-#containing{
-    display: flex;
-    flex-wrap: wrap; 
+#containing {
+	display: flex;
+	flex-wrap: wrap;
 }
-.pontsF{
-    position: relative;
-   
+.pontsF {
+	position: relative;
 }
-#sec3{
-    margin-right: 4em;
-    margin-left: 8em;
+#sec3 {
+	margin-right: 4em;
+	margin-left: 8em;
 }
-#pf1{
-    color: #FA9837;
-    position: absolute;
-    top: 13.3em;
-    left: 4em;
+#pf1 {
+	color: #fa9837;
+	position: absolute;
+	top: 13.3em;
+	left: 4em;
 }
-#pf2{
-    color: #FA9837;
-position: absolute;
-    top: 8em;
-    left: 5.5em;
+#pf2 {
+	color: #fa9837;
+	position: absolute;
+	top: 8em;
+	left: 5.5em;
 }
-#pf3{
-    color: #FA9837;
-position: absolute;
-    top: 13.3em;
-    left: 6em;
+#pf3 {
+	color: #fa9837;
+	position: absolute;
+	top: 13.3em;
+	left: 6em;
 }
-#pf4{
-    color: #FA9837;
-position: absolute;
-    top: 13.1em;
-    left: 6em;
+#pf4 {
+	color: #fa9837;
+	position: absolute;
+	top: 13.1em;
+	left: 6em;
 }
-#pf5{
-    color: #FA9837;
-position: absolute;
-      top: 13.1em;
-     left: 3.5em;
-    
+#pf5 {
+	color: #fa9837;
+	position: absolute;
+	top: 13.1em;
+	left: 3.5em;
 }
-#pf6{
-    color: #FA9837;
-position: absolute;
-      top: 13.1em;
-     left: 3em;
-    font-size: 1.1em;
+#pf6 {
+	color: #fa9837;
+	position: absolute;
+	top: 13.1em;
+	left: 3em;
+	font-size: 1.1em;
 }
-
-
