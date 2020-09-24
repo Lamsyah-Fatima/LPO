@@ -6,6 +6,7 @@ html {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
+	font-family: 'cairo"', sans-serif;
 }
 
 * {
@@ -34,23 +35,26 @@ header {
     
 } */
 
-.navbar {
-	color: white;
-	font-family: 'Cairo' bold, sans-serif;
-}
 #menu {
 	color: #f15f46 !important;
 }
 
 #menu a {
 	text-align: center;
+	color: #f15f46;
+	font-family: 'cairo', sans-serif;
+	font-weight: 600;
 }
+
 /* A little solution to the menu */
 #nav-active {
 	color: white;
 	background-color: #f15f46;
 	border-radius: 20em;
 	padding: 0rem 0.8rem 0rem 0.8rem;
+}
+#nav-active a {
+	color: white;
 }
 #nav-1 {
 	margin: 0rem 4rem 0rem 4rem;
@@ -67,25 +71,58 @@ header {
 	top: 36%;
 	left: 10%;
 }
+
 .description h3 {
-	font-size: 1.8em;
-	letter-spacing: 3px;
+	letter-spacing: 0.08em;
 	line-height: 1.3;
+	font-family: 'cairo', sans-serif;
+	font-weight: 900;
+	color: #0a303a;
 }
 #education {
 	font-size: 1.5em;
+	font-family: 'cairo', sans-serif;
+	font-weight: semi-bold;
+	color: #0a303a;
 }
-.button {
+/* fatimma's button */
+/* .button {
 	border-radius: 15rem;
 	padding: 0.8rem 1.8rem 0.8rem 1.8rem;
 	background-color: #f15f46;
 	border-style: none;
-}
-.button a {
+	font-family: 'cairo', sans-serif;
+	font-weight: bold;
+} */
+#description-a {
+	text-decoration: none;
+	border-radius: 15rem;
+	padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+	background-color: #f15f46;
+	border-style: none;
+	font-family: 'cairo', sans-serif;
+	font-weight: bold;
 	color: white;
-
-	/**********Section1**********/
 }
+/* version mobile */
+#desc-mobile {
+	margin-bottom: 25%;
+}
+#education-mobile {
+	font-size: 1.5em;
+	font-family: 'cairo', sans-serif;
+	font-weight: semi-bold;
+	color: #0a303a;
+}
+#description-header-mboile {
+	letter-spacing: 0.08em;
+	line-height: 1.3;
+	font-family: 'cairo', sans-serif;
+	font-weight: 900;
+	color: #0a303a;
+}
+
+/**********Section1**********/
 #section1 {
 	background-color: #f15f46;
 	color: white;
@@ -227,141 +264,126 @@ header {
 	font-size: 1.1em;
 }
 /***********section4***********/
-#sec4{
-    
-    color: white;
-    position: relative;
+#sec4 {
+	color: white;
+	position: relative;
 }
-#Plpo{
-   background-color: #F26047;
-    padding-top: 4em;
-    padding-bottom: 3em;
-    margin-top: 2em;
-    padding-bottom: 5em;
+#Plpo {
+	background-color: #f26047;
+	padding-top: 4em;
+	padding-bottom: 3em;
+	margin-top: 2em;
+	padding-bottom: 5em;
 }
 
-
-
-#Plpo h3{
-    text-align: center;
-    padding-bottom: 1.5em;
-    
-    
+#Plpo h3 {
+	text-align: center;
+	padding-bottom: 1.5em;
 }
-#Plpo p{
-    text-align: center;
-    padding-right: 17em;
-    padding-left: 17em;
-    padding-bottom: 1em;
+#Plpo p {
+	text-align: center;
+	padding-right: 17em;
+	padding-left: 17em;
+	padding-bottom: 1em;
 }
-.arrow1{
-    position: absolute;
-    background-color: #F26047;
-    border: 0.3em solid white ;
-    border-radius: 100%;
-    margin-left: 37em;
-    top: -2em;
-   justify-content: center;
-    
-    
+.arrow1 {
+	position: absolute;
+	background-color: #f26047;
+	border: 0.3em solid white;
+	border-radius: 100%;
+	margin-left: 37em;
+	top: -2em;
+	justify-content: center;
 }
-.arrow2{
-    position: absolute;
-    background-color: #F26047;
-    border: 0.3em solid white ;
-    border-radius: 100%;
-    margin-left: 37em;
-    bottom: -2em;
-    justify-content: center;
-    
-    
+.arrow2 {
+	position: absolute;
+	background-color: #f26047;
+	border: 0.3em solid white;
+	border-radius: 100%;
+	margin-left: 37em;
+	bottom: -2em;
+	justify-content: center;
 }
-#plpob{
-    text-align: center;
-    background-color: white;
-    border-radius: 15%;
-    padding: 12px 25px 12px 25px;
-    margin-left: 40.5em;
-    border: none;
-    font-weight: bold;
+#plpob {
+	text-align: center;
+	background-color: white;
+	border-radius: 15%;
+	padding: 12px 25px 12px 25px;
+	margin-left: 40.5em;
+	border: none;
+	font-weight: bold;
 }
 /***************section5***************/
 
-.number{
-    background-color: #D7E836;
-    color: white;
-    padding: 15px 20px 15px 20px;
+.number {
+	background-color: #d7e836;
+	color: white;
+	padding: 15px 20px 15px 20px;
 }
-.btitle{
-    color: #0A303A;
-    padding-top: 17px;
-    padding-bottom: 17px;
+.btitle {
+	color: #0a303a;
+	padding-top: 17px;
+	padding-bottom: 17px;
 }
-#Blgs{
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 20px;
-    
-    
+#Blgs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 20px;
 }
 #sec5 h3 {
-    margin-top: 60px;
-    text-align: center;
-    font-weight: bold;
+	margin-top: 60px;
+	text-align: center;
+	font-weight: bold;
 }
-.link{
-    text-decoration: none;
-    color: #0A303A;
+.link {
+	text-decoration: none;
+	color: #0a303a;
 }
 /**************section6************/
-#sec6{ 
-    position: relative;
+#sec6 {
+	position: relative;
 }
-#sec6 h3{
-    text-align: center;
-    position: absolute;
-    top: 2em;
-    left: 26.5em;
-    color: white;
-    font-size: 1.3em;
-    
+#sec6 h3 {
+	text-align: center;
+	position: absolute;
+	top: 2em;
+	left: 26.5em;
+	color: white;
+	font-size: 1.3em;
 }
-#enseignants{
-    display: flex;
-    background-color: #0A303A;
-    padding-top: 6em;
-    margin-top: 4em;
-    padding-bottom: 3em;
-    
+#enseignants {
+	display: flex;
+	background-color: #0a303a;
+	padding-top: 6em;
+	margin-top: 4em;
+	padding-bottom: 3em;
 }
-#personI{
-    background-color: #0A303A;
-    border: 0.3em solid white ;
-    border-radius: 100%;
-    position: absolute;
-     margin-left: 37em;
-    top: -2em;
+#personI {
+	background-color: #0a303a;
+	border: 0.3em solid white;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: 37em;
+	top: -2em;
 }
-.enText{
-    background-color: white;
-    margin-right: 2em;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    text-align: center;
-    color: #01637D;
-    
-    
+.enText {
+	background-color: white;
+	margin-right: 2em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	text-align: center;
+	color: #01637d;
 }
-.prof{
-    position: relative;
-    margin-top: 4em;
-    margin-left: 2em;
+.prof {
+	position: relative;
+	margin-top: 4em;
+	margin-left: 2em;
 }
-.imgEng{
-    position: absolute;
-    top: -4em;
-    left: 4em;
+.imgEng {
+	position: absolute;
+	top: -4em;
+	left: 4em;
 }
