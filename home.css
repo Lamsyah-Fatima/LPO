@@ -105,9 +105,9 @@ header {
 	color: white;
 }
 /* version mobile */
-#desc-mobile {
+/* #desc-mobile {
 	margin-bottom: 25%;
-}
+} */
 #education-mobile {
 	font-size: 1.5em;
 	font-family: 'cairo', sans-serif;
@@ -148,20 +148,21 @@ header {
 	text-align: center;
 	color: #fa9837;
 }
-#NS {
+/* #NS {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	font-weight: bold;
 	font-size: 1.4em;
-}
-.container {
+} */
+/* .container {
 	display: flex;
 	padding-right: 20px;
 	justify-content: space-between;
 	margin-right: 40px;
 	margin-left: 40px;
-}
-#creche {
+} */
+
+/* #creche {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
 	margin-right: 30px;
@@ -193,7 +194,7 @@ header {
 	padding-right: 25px;
 	padding-top: 25px;
 	padding-bottom: 25px;
-}
+} */
 .info a {
 	color: #f2b186;
 	text-decoration: none;
