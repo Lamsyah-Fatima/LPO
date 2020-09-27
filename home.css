@@ -149,8 +149,6 @@ header {
 	color: #fa9837;
 }
 /* #NS {
-	padding-top: 50px;
-	padding-bottom: 50px;
 	font-weight: bold;
 	font-size: 1.4em;
 } */
@@ -158,11 +156,10 @@ header {
 	display: flex;
 	padding-right: 20px;
 	justify-content: space-between;
-	margin-right: 40px;
-	margin-left: 40px;
+	
 } */
 
-/* #creche {
+#creche {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
 	margin-right: 30px;
@@ -194,7 +191,7 @@ header {
 	padding-right: 25px;
 	padding-top: 25px;
 	padding-bottom: 25px;
-} */
+}
 .info a {
 	color: #f2b186;
 	text-decoration: none;
@@ -290,20 +287,20 @@ header {
 .arrow1 {
 	position: absolute;
 	background-color: #f26047;
-	border: 0.3em solid white;
+	border: 0.4em solid white;
 	border-radius: 100%;
-	margin-left: 37em;
-	top: -2em;
-	justify-content: center;
+	/* margin-left: 37em; */
+	top: 0.5rem;
+	/* justify-content: center; */
 }
 .arrow2 {
 	position: absolute;
 	background-color: #f26047;
-	border: 0.3em solid white;
+	border: 0.4em solid white;
 	border-radius: 100%;
-	margin-left: 37em;
-	bottom: -2em;
-	justify-content: center;
+	/* margin-left: 37em; */
+	bottom: -2rem;
+	/* justify-content: center; */
 }
 #plpob {
 	text-align: center;
@@ -385,6 +382,6 @@ header {
 }
 .imgEng {
 	position: absolute;
-	top: -4em;
-	left: 4em;
+	top: -40%;
+	left: 25%;
 }
