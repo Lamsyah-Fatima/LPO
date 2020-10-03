@@ -385,3 +385,44 @@ header {
 	top: -40%;
 	left: 25%;
 }
+/**********************sec7***************/
+#sec7 h3{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: bolder;
+    color: #0A303A;
+}
+#sec7B {
+   margin-left: 41.5em;
+    margin-bottom: 2em;
+    border: none;
+}
+#sec7B a{
+    background-color: #007C9D;
+    color: white;
+    padding: 12px 15px 12px 15px;
+    border-radius: 30%;
+    text-decoration: none;
+
+}
+/**********footer*****************/
+footer{
+    padding-top: 2em;
+    padding-bottom: 5em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 40px;
+    background-color: #0A303A;
+    color: #C8C8C8;
+}
+footer h3{
+    color:white;
+    margin-bottom: 1em;
+}
+footer p{
+    line-height: 1.5;
+}
+
