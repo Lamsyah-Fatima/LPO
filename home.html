@@ -88,10 +88,10 @@
     
     <section id="sec2" >
     <h3 id="NS">Nos Services</h3>
-    <div class="container ">
+    <div class="container container-md">
     
-        <div class="row  container-md">
-        <div id="creche" class="col">
+        <div class="row">
+        <div id="creche" class="col-sm-12 col-xl-3">
         <div>
         <img  src="img/illustration-people-1%201.png">
         </div>
@@ -101,7 +101,7 @@
         <span class="info"><a href="#">Plus d’info</a></span></p></div>
     </div>
     
-    <div id="garderie" class="col">
+    <div id="garderie" class="col-sm-12 col-xl-3">
         <img src="img/illustration-people-3%201.png">
         <h3>Garderie</h3>
         <p>Notre approche de l’apprentissage et l’enseignement est centrée sur l’enfant par le jeu et l’éducation.<br><br>
@@ -109,7 +109,7 @@
         </p>
     </div>
     
-    <div id="area" class="col">
+    <div id="area" class="col-sm-12 col-xl-3">
        <img src="img/Group.png">
        <h3>Après l’école</h3>
         <p>Avec une large gamme d’activités , y compris les arts et l’artisanat, le jeu imaginatif et des activités physiques.<br><br>
@@ -164,20 +164,19 @@
     <!-------------section4------------>
     
     <section id="sec4">
-       <div class="d-flex align-items-center justify-content-center" >
+      
         
        <div >
-        <img  class="arrow1 mx-auto"  src="img/down-arrow%20(1)%202.png"></div>
+        <img  class="arrow1"  src="img/down-arrow%20(1)%202.png"></div>
     </div>
         
         <div id="Plpo">
         <h3>Pourquoi lesPetisOiseuax</h3><br>
         <p>Nos objectifs se traduisent par aider l’enfant à mieux connaître ses pensées, ses émotions et son corps, afin qu’il puisse bien utiliser toutes ses ressources, et à favoriser une émergence des aptitudes cognitives, physiques et psychologiques de l’enfant.</p> >
-       <button href="#" id="plpob">Plus D'info</button>
+       <a class="button" type="button" href="#" id="plpob">Plus D'info</a>
        </div>
-       <div class="d-flex align-items-center justify-content-center" >
            <div>
-            <img class="arrow2 mx-auto" src="img/down-arrow%20(1)%202.png">
+            <img class="arrow2 " src="img/down-arrow%20(1)%202.png">
            </div>
        </div>
         
@@ -215,12 +214,15 @@
         
     </section>
     <!------------section6------------------->
+    <!-- Responive 100% yeeeey  -->
     <section id="sec6">
-       <img id="personI" src="img/teacher%20(1)%201.png">
+        
+        <img id="personI" src="img/teacher%20(1)%201.png">
+       
        <h3>Nos Enseignants</h3>
         <div id="enseignants">
            
-            <div id="enseignant1" class="prof">
+            <!-- <div id="enseignant1" class="prof">
                 <img  src="img/Ellipse%207.png" class="imgEng">
                 <div class="enText">age de 23 ans holder of bachelor degree in education  </div>
             </div>
@@ -235,15 +237,61 @@
             <div id="enseignant4" class="prof">
                 <img src="img/Ellipse%2010.png" class="imgEng">
                 <div class="enText">age de 23 ans holder of bachelor degree in education</div>
+            </div> -->
+           <div class="container-fluid">
+              
+            <div class="card-wrapper ">
+                <div class="row"> 
+                   
+                  <!-- prof-1  -->
+                <div class="col-sm-12 col-xl-3 ">
+                  <div class="card " >
+                       <img src="img/Prof-1.jpg" class="profile-img" alt="">
+                       <h5>Mortadi Ahmed</h5>
+                       <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nunc massa, fringilla elementum rutrum ut, accumsan.</p>
+                   </div>
+                </div>
+                   <!-- prof-2 -->
+                   <div class="col-sm-12 col-xl-3 ">   
+                   <div class="card " class="col-sm-3 col-xl-3 ">
+                    <img src="img/Prof-2.jpg" class="profile-img" alt="">
+                    <h5>Karim Hani</h5>
+                    <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nunc massa, fringilla elementum rutrum ut, accumsan.</p>
+                </div>
             </div>
-            
+                <!-- -prof-3 -->
+                <div class="col-sm-12 col-xl-3 ">
+                <div class="card " class="col-sm-3 col-xl-3 ">
+                    <img src="img/Prof-3.jpg" class="profile-img" alt="">
+                    <h5>Sanae Lwardi</h5>
+                    <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nunc massa, fringilla elementum rutrum ut, accumsan.
+                    </p>
+                </div>
+            </div>
+                <!-- prof-4 -->
+                <div class="col-sm-12 col-xl-3 ">
+                <div class="card " class="col-sm-3 col-xl-3 ">
+                    <img src="img/Prof-4.jpg" class="profile-img" alt="">
+                    <h5>Hiba El Mokani</h5>
+                    <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nunc massa, fringilla elementum rutrum ut, accumsan.
+                    </p>
+                </div>
+            </div>
+               </div>
+            </div>
+           </div>
         </div>
     </section>
      <!-------------section7-------------->
     <section id="sec7">
+        <div class="sec7-header">
         <h3>Vous êtes interesser ?</h3>
-        <button id="sec7B"><a href="#">Nous contacter</a></button><br>
-        <div>
+        <!-- <button id="sec7B"><a href="#">Nous contacter</a></button><br> -->
+        <a class="button" type="button" href="#" id="sec7B">Plus D'info</a>
+    </div>
+   
+        <div class="iframee">
+           
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13588.234513333036!2d-8.021693218895251!3d31.632245101321928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8d931f3209%3A0x96ce34d39325c762!2sGu%C3%A9liz%2C%20Marrakech%2040000!5e0!3m2!1sfr!2sma!4v1601741392093!5m2!1sfr!2sma" width=100% height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </section>
