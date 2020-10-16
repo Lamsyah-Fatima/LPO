@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+body,
+html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'cairo"', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+#menu {
+	color: #007c9d !important;
+}
+
+#menu a {
+	text-align: center;
+	color: #007c9d;
+	font-family: 'cairo', sans-serif;
+	font-weight: 600;
+}
+#nav-active {
+	color: white;
+	background-color: #007c9d;
+	border-radius: 20em;
+	padding: 0rem 0.8rem 0rem 0.8rem;
+}
+#nav-active a {
+	color: white;
+}
+#nav-1 {
+	margin: 0rem 4rem 0rem 4rem;
+}
+#nav-2 {
+	margin: 0rem 4rem 0rem 2rem;
+}
+#nav-3 {
+	margin: 0rem 4rem 0rem 2rem;
+}
+
+.all {
+	margin-top: 2%;
+	/* background-color: #afafaf; */
+	height: 40rem;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+/* .part-1 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.part-2 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.part-3 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+.part-2 {
+	transition: 0.5s ease-in-out;
+}
+#box-1 {
+	transition: 0.5s ease-in-out;
+}
+#box-2 {
+	transition: 0.5s ease-in-out;
+}
+#box-3 {
+	transition: 0.5s ease-in-out;
+}
+
+#box-1:hover {
+	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+}
+#box-2:hover {
+	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 85%);
+}
+#box-3:hover {
+	clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+.box {
+	background-color: #007c9d;
+	height: 30rem;
+	width: 100%;
+}
+.Title {
+	height: 5rem;
+	background-color: white !important;
+	color: #007c9d;
+	font-family: 'cairo';
+
+	text-align: center;
+}
+.h-3 {
+	font-weight: bold !important;
+	padding-top: 1rem;
+}
+.h-4 {
+	font-weight: bold;
+	padding-top: 2rem;
+}
+.inside-box {
+	padding-top: 8rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color: white;
+}
+.para {
+	font-family: 'cairo';
+	font-weight: bold;
+}
+.liste {
+	list-style-type: none;
+}
+.liste-font {
+	font-family: 'cairo';
+	font-weight: semibold;
+	color: #fafafa;
+}
+
+.prix {
+	height: 5rem;
+	background-color: white;
+	color: #007c9d;
+	font-family: 'cairo';
+	font-weight: bold;
+	text-align: center;
+}
