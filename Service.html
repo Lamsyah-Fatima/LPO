@@ -10,23 +10,37 @@
        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+       
+      <!---first part of script the second one is below---->
+       
     <script type="text/javascript">
+        
     function sizeChange(){
-      document.querySelector('#box-1').style.clipPath ="polygon(0 19%, 100% 0, 100% 84%, 0 100%)";
-      document.querySelector('#box-2').style.clipPath ="polygon(0 0, 100% 10%, 100% 100%, 0 85%)";
-      document.querySelector('#box-3').style.clipPath ="polygon(0 10%, 100% 0, 100% 84%, 0 100%)";
-      document.querySelector('.part-2').style.boxShadow ="0px 0px 29px 4px rgba(0,0,0,0.75)";
-    }
-    function sizeBack(){
+        
+   document.getElementById('inside-box-1').innerHTML= '<p class="para" >Notre approche de l\'apprentissage et l\'enseignement est centrée sur l\'enfant par le jeu et l\'éducation</p><ul class="liste"><li class="liste-font">- Lorem ipsum dolor sit amet, consectetur .</li><li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscin .</li><li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus.</li> </ul>';
+   document.getElementById('inside-box-1').style.textAlign='center';         
+   document.getElementById('garderie').style.display='block';
+   document.getElementById('h4').style.display='block';          
+   document.querySelector('#box-1').style.clipPath ="polygon(0 19%, 100% 0, 100% 84%, 0 100%)";
+   document.querySelector('#box-2').style.clipPath ="polygon(0 0, 100% 10%, 100% 100%, 0 85%)";
+   document.querySelector('#box-3').style.clipPath ="polygon(0 10%, 100% 0, 100% 84%, 0 100%)";
+   document.querySelector('.part-2').style.boxShadow ="0px 0px 29px 4px rgba(0,0,0,0.75)";
+   }
+        
+   function sizeBack(){
+       
+    document.getElementById('inside-box-1').innerHTML = "Garderie";
+    document.getElementById('garderie').style.display='none';
+    document.getElementById('h4').style.display='none';
       document.querySelector('#box-1').style.clipPath ="polygon(0 0, 100% 0, 100% 100%, 0 100%)";
       document.querySelector('#box-2').style.clipPath ="polygon(0 0, 100% 0, 100% 100%, 0 100%)";
       document.querySelector('#box-3').style.clipPath ="polygon(0 0, 100% 0, 100% 100%, 0 100%)";
-      document.querySelector('.part-2').style.boxShadow ="none ";
+      document.querySelector('.part-2').style.boxShadow ="none ";  
     }
-    
     </script>
-    
+
     </head>
+    
     <body>
 <!-- Menu -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
@@ -57,30 +71,24 @@
     </div>
     </div>
   </nav>
-  <!-- Boxes -->
+  
+  <!------------------------- Boxes ------------------>
 <section class="Section1">
     <div id="all" class="all row container-fluid">
       <div  class=" col-sm-12 col-xl-4"> 
        <div id="Part-1" class="part-1">
         <div class="Title">
         
-          <h3 class="h-3"> Crèche Maternelle</h3>
+          <h3 class="h-3" id='Cmat'> Crèche Maternelle</h3>
     
         </div>
-        <div id="box-1" class="box">
-        <div class="inside-box">
-          <p class="para" >Votre enfant grandit vite et est prêt pour un peu plus d’indépendance , 
-             notre établissement sera une introduction parfaite.</p>
-           <ul class="liste">
-             <li class="liste-font">- Lorem ipsum dolor sit amet, consectetur .</li>
-             <li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscin .</li>
-             <li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus.
-            </li>
-           </ul>  
+        <div id="box-1" class="box" onmouseover="show1()" onmouseout="hide1()">
+        <div class="inside-box" id='inside-box-2'>
+          Crèche Maternelle
             </div>  
         </div>
         <div class="prix">
-         <h4 class="h-4">400DH/Mois</h4>
+         <h4 class="h-4" id='h41'>400DH/Mois</h4>
         </div>
       </div>
       </div>
@@ -88,24 +96,17 @@
       <div   class=" col-sm-12 col-xl-4"> 
         <div id="Part-2" class="part-2">
         <div class="Title">
-          <h3 class="h-3"> Garderie</h3>
+          <h3 class="h-3" id="garderie"> Garderie</h3>
         </div>
-        <div onmouseover="sizeChange()" onmouseout="sizeBack()" id="box-2" class="box">
-          <div class="inside-box">
-            <p class="para" >Notre approche de l’apprentissage et l’enseignement est centrée
-              sur l’enfant par le jeu et l’éducation</p>
-             <ul class="liste">
-               <li class="liste-font">- Lorem ipsum dolor sit amet, consectetur .</li>
-               <li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscin .</li>
-               <li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus.
-              </li>
-             </ul>  
+        <div onmouseover="sizeChange()" onmouseout="sizeBack()" id="box-2" class="box" >
+          <div class="inside-box " id="inside-box-1">
+            Garderie
               </div>  
           
 
         </div>
         <div class="prix">
-          <h4 class="h-4">900DH/Mois</h4>
+          <h4 class="h-4" id="h4">900DH/Mois</h4>
         </div>
       </div>
       </div>
@@ -113,27 +114,57 @@
       <div  class=" col-sm-12 col-xl-4"> 
         <div id="Part-3" class="part-3"> 
         <div class="Title">
-          <h3 class="h-3"> Après l'école</h3>
+          <h3 class="h-3" id='Apl'> Après l'école</h3>
         </div>
-        <div id="box-3" class="box">
-          <div class="inside-box">
-            <p class="para" >Avec une large gamme d’activités ,
-               y compris les arts et l’artisanat, le jeu imaginatif et des activités physiques.</p>
-             <ul class="liste">
-               <li class="liste-font">- Lorem ipsum dolor sit amet, consectetur .</li>
-               <li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscin .</li>
-               <li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus.
-              </li>
-             </ul>  
+        <div id="box-3" class="box" onmouseover="show2()" onmouseout="hide2()">
+          <div class="inside-box" id="inside-box-3" >
+           Après l'école
               </div>  
         </div>
         <div class="prix">
-          <h4 class="h-4">350DH/Mois</h4>
+          <h4 class="h-4" id="h42">350DH/Mois</h4>
         </div>
       </div>
     </div>
 
       </div>
         </section>
-    </body>
+        
+   <script>
+       
+        function show1(){
+         document.getElementById('inside-box-2').innerHTML= '<p class="para" >Votre enfant grandit vite et est prêt pour un peu plus d\’indépendance ,notre établissement sera une introduction parfaite.</p><ul class="liste"><li class="liste-font">- Lorem ipsum dolor sit amet, consectetur .</li><li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscin .</li><li class="liste-font">- Lorem ipsum dolor sit amet, </li></ul>';
+            
+         document.getElementById('inside-box-2').style.textAlign='center';
+          document.getElementById('Cmat').style.display='block';
+          document.getElementById('h41').style.display='block';
+        }
+        
+      function hide1() {
+          document.getElementById('inside-box-2').innerHTML="Crèche Maternelle";
+          document.getElementById('inside-box-2').style.textAlign='center';  
+          document.getElementById('Cmat').style.display='none';
+          document.getElementById('h41').style.display='none';
+        } 
+        </script>
+        
+        <script>
+            
+        function show2(){
+         document.getElementById('inside-box-3').innerHTML='<p class="para" >Avec une large gamme d\’activités , y compris les arts et l\’artisanat, le jeu imaginatif et des activités physiques.</p> <ul class="liste"><li class="liste-font">- Lorem ipsum dolor sit amet, consectetur .</li><li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscin .</li><li class="liste-font">- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus.</li></ul>';  
+            
+           document.getElementById('inside-box-3').style.textAlign='center'; 
+           document.getElementById('Apl').style.display='block';
+           document.getElementById('h42').style.display='block';
+        } 
+        
+      function hide2() {
+          document.getElementById('inside-box-3').innerHTML="Crèche Maternelle";
+          document.getElementById('inside-box-3').style.textAlign='center';  
+          document.getElementById('Apl').style.display='none';
+          document.getElementById('h42').style.display='none';
+        }
+       
+        </script>
+</body>
 </html>
