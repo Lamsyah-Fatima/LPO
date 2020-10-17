@@ -126,3 +126,35 @@ html {
 	font-weight: bold;
 	text-align: center;
 }
+/*box2*/
+#inside-box-1{
+    text-align: center;
+}
+
+#garderie{
+    display: none;
+}
+#h4{
+    display: none;
+}
+/*box1*/
+#inside-box-2{
+    text-align: center;
+}
+
+#Cmat{
+    display: none;
+}
+#h41{
+    display: none;
+}
+/*box3*/
+#inside-box-3{
+    text-align: center;
+}
+#Apl{
+    display: none;
+}
+#h42{
+    display: none;
+}
