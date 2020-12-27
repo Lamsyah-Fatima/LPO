@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
 body,
 html {
 	height: 100%;
-	margin: 0px;  
+	margin: 0px;
 	padding: 0px;
-	font-family: 'cairo"', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 * {
 	box-sizing: border-box;
 	margin: 0px;
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 	padding: 0px;
 }
 nav {
-	transform: translateY(-50%);
+	/* transform: translateY(-50%); */
 }
 #menu {
 	color: blue !important;
@@ -28,7 +30,7 @@ nav {
 }
 #nav-active {
 	color: white;
-	  background-image: linear-gradient(to right,blue,#007c9d);
+	background-image: linear-gradient(to right, blue, #007c9d);
 	border-radius: 20em;
 	padding: 0rem 0.8rem 0rem 0.8rem;
 }
@@ -47,92 +49,112 @@ nav {
 
 .all {
 	margin-top: 8%;
-    
+
 	/* transform: translateX(10%); */
-    height: 5rem;}
-
-
-#sec0{
-    display: flex;
-    justify-content: space-between;
+	height: 5rem;
 }
-#img{
-   
-    margin-right: 18%;
+
+#sec0 {
+	display: flex;
+	justify-content: space-between;
 }
-.texts{
-   
-    margin-bottom: 1.6em;
-    margin-left: 6em;
-    line-height: 2.5;
-    font-size: 1.6em;
-    font-weight: bold;
-color: #007c9d;
-    background-attachment: fixed;
-        
+#img {
+	margin-right: 18%;
+}
+.texts {
+	margin-bottom: 1.6em;
+	margin-left: 6em;
+	line-height: 2.5;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #007c9d;
+	background-attachment: fixed;
 }
 
 /*sec1*/
-#firstS{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5em;
+/* #s1 {
+	height: 100vh;
+} */
+#firstS {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5em;
 }
-#firstS p{
-    margin-top: 5em;
-    font-size: 1.2em;
-    margin-right: 4em;
+#firstS p {
+	margin-top: 5em;
+	font-size: 1.2em;
+	margin-right: 4em;
 }
 /*sec2***/
-#text1 p{
-    text-align: center;
-    margin-top: 4em;
-    font-size: 1.3em;
-    font-weight: bold;
+#second {
+	margin-top: 12rem;
 }
-#container{
-    margin-top: 3em;
-    display: flex;
-    justify-content: space-between;
-     margin-right: 5%;
-    font-size: 1.3em;
+#text1 p {
+	text-align: center;
+	margin-bottom: 4em;
+	font-size: 1.5em;
+	font-weight: 900;
 }
-.total{
-    margin-left: 5%;
+#container {
+	margin-top: 3em;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 5%;
+	font-size: 1.3em;
 }
-#text2 p{
-    text-align: center;
-    font-size: 1.3em;
-    font-weight: bold;
+.card-img-top {
+	height: 15rem;
+	border-radius: 2rem !important;
 }
-#container2{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 30px;
-    margin-right: 5%;
-    font-size: 1.2em;
+
+.total {
+	margin-left: 5%;
 }
-#img{
-   margin-left: 35%;
-    margin-top: 4em;
+#text2 p {
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;
 }
-.content2{
-    margin-left: 5%;
+#container2 {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+	margin-right: 5%;
+	font-size: 1.2em;
+}
+#img {
+	margin-left: 35%;
+	margin-top: 4em;
+}
+.content2 {
+	margin-left: 5%;
+}
+/* Tomorrow i ll fix this shit  */
+.prixx {
+	margin-top: 2rem;
+	background-color: #007c9d !important;
+	color: white;
+	text-align: center;
+	width: 9rem;
+	height: 3rem;
+
+	transform: translateX(50%);
+	border-radius: 4rem;
 }
 /*footer*/
-#footer{
-    padding-top: 2em;
-    padding-bottom: 3em;
-    margin-top: 2em;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 80px;
-    padding-left: 40px;
-    background-color: #007c9d;
-    color: #C8C8C8;
-  
+#footer {
+	padding-top: 2em;
+	padding-bottom: 3em;
+	margin-top: 2em;
+
+	display: flex;
+	justify-content: space-between;
+	padding-right: 80px;
+	padding-left: 40px;
+	background-color: #007c9d;
+	color: #c8c8c8;
 }
-#footer h3{
+/* #footer h3{
     color:white;
     margin-bottom: 1em;
     margin-top 6em;
@@ -141,4 +163,4 @@ color: #007c9d;
     line-height: 1.5;
     margin-top:4em;
    
-}
+} */
